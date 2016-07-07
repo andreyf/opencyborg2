@@ -1,3 +1,3 @@
 set ( cycommon_src misc.cpp )
 
-add_library ( cycommon shared ${cycommon_src} )
+add_library ( cycommon SHARED ${cycommon_src} )
